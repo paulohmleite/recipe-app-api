@@ -9,7 +9,6 @@ from django.contrib.auth.models import (
     PermissionsMixin,
 )
 
-
 # GOOD PRACTICES
 class UserManager(BaseUserManager):
     """Manager for users."""
